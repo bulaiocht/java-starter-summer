@@ -2,6 +2,7 @@ group 'hillel'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'idea'
 
 sourceCompatibility = 1.8
 
@@ -11,4 +12,9 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+task wrapper (type: Wrapper){
+    distributionType = Wrapper.DistributionType.ALL
+    gradleVersion='4.8'
 }
