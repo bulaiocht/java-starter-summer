@@ -1,2 +1,3 @@
-###Code for Java Introduction course
-####July - August, 2018
+### Code for Java Introduction course
+
+#### July - August, 2018
