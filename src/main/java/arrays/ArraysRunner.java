@@ -21,16 +21,18 @@ public class ArraysRunner {
         Object [] objects;
         System [] systems;
 
-        //Инициализация массива размером 10 элементов
+        String text = "This is text";
+
+        //Объявление и инициализация массива размером 10 элементов значениями по-умолчанию
         //Значения элементов по умолчанию -> 0
         int [] intArray1 = new int[10];
 
         //Инициализация размера массива и его элементов значениями
-        int [] intArray2 = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int [] intArray2 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
         //Раздельное объявление переменной и инициализация
         int [] intArray3;
-        intArray3 = new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+        intArray3 = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
         //Литерал null означает, что переменная array не указывает ни на какой массив в памяти
         int array [] = null;
@@ -41,14 +43,16 @@ public class ArraysRunner {
         //Доступ к элементам массива по индексу
         //Запись элементов в массив
         //Заметьте, что индексы начинаются с 0
-        array[0] = 0;
-        array[1] = 1;
-        array[2] = 2;
-        array[3] = 3;
-        array[4] = 4;
+        array[0] = 1;
+        array[1] = 2;
+        array[2] = 3;
+        array[3] = 4;
+        array[4] = 5;
 
         //Чтение из массива
-        int second = array[1];
+        int index = 1;
+        int second = array[index];
+        System.out.println("Element #" + index + " is: " + second);
 
         //Размер массива
         int size = array.length;

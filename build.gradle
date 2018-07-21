@@ -16,5 +16,9 @@ dependencies {
 
 task wrapper (type: Wrapper){
     distributionType = Wrapper.DistributionType.ALL
-    gradleVersion='4.8'
+    gradleVersion='4.9'
+}
+
+javadoc {
+        options.addStringOption("charset", "UTF-8")
 }
