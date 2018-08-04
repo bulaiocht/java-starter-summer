@@ -1,4 +1,4 @@
-package inheritance;
+package inheritance.biology;
 
 public class Clownfish extends Fish {
 
@@ -15,4 +15,12 @@ public class Clownfish extends Fish {
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return "Clownfish{" +
+                "name='" + name + '\'' +
+                '}';
+    }
+
 }

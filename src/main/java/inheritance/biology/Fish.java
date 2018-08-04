@@ -1,4 +1,4 @@
-package inheritance;
+package inheritance.biology;
 
 public class Fish extends Animal {
 
@@ -11,4 +11,5 @@ public class Fish extends Animal {
     public void breatheOxygen() {
         System.out.println("I breathe oxygen dissolved in water");
     }
+
 }

@@ -1,4 +1,4 @@
-package inheritance;
+package inheritance.biology;
 
 public class Animal extends Eukaryote {
 
