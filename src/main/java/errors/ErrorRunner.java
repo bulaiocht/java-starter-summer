@@ -55,6 +55,7 @@ public class ErrorRunner {
 //        }
 
 
+        //Do not catch ERRORS!
         try {
 
             long[] l = new long[Integer.MAX_VALUE];
