@@ -63,15 +63,6 @@ public class DiceWareRunner {
 
     }
 
-
-
-
-
-
-
-
-
-
 //    private static void collExamples(){
         //        ArrayList list = new ArrayList();
 //
